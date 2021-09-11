@@ -45,13 +45,17 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # installed apps
+    'drf_yasg',
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
 
+
     # own apps
     'utils',
-    'users'
+    'users',
+    'questionnaire',
+    'products',
 ]
 
 MIDDLEWARE = [
